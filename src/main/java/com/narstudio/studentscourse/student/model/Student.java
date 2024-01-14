@@ -1,5 +1,6 @@
 package com.narstudio.studentscourse.student.model;
 
+import com.narstudio.studentscourse.student.enums.GenderEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -13,9 +14,5 @@ public class Student {
     private final String firstName;
     private final String lastName;
     private final String email;
-    private final Gender gender;
-
-    enum Gender {
-        MALE, FEMALE
-    }
+    private final GenderEnum gender;
 }
